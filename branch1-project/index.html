@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branch 1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .product-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .product-image {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Branch 1</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Welcome to Branch 1</h2>
+            <p>This is the localized content for Branch 1. Explore our unique products and offers!</p>
+            <button id="updateTextBtn">Click to Update Text</button>
+            <p id="dynamicText">Original Text</p>
+        </section>
+        <section class="image-section">
+            <h2>Featured Product</h2>
+            <img id="featuredImage" src="images/branch1/featured-product.jpg" alt="Featured Product">
+            <div class="image-controls">
+                <button id="enlargeImageBtn">Enlarge Image</button>
+                <button id="shrinkImageBtn">Shrink Image</button>
+            </div>
+        </section>
+        <section class="product-section">
+            <h2>Additional Products</h2>
+            <img id="product1Image" class="product-image" src="images/branch1/product1.jpg" alt="Product 1">
+            <div class="image-controls">
+                <button id="enlargeProduct1Btn">Enlarge Product 1</button>
+                <button id="shrinkProduct1Btn">Shrink Product 1</button>
+            </div>
+            <p id="product1Text">This is Product 1. It's amazing!</p>
+            <button id="updateProduct1TextBtn">Update Product 1 Text</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Shopping Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
